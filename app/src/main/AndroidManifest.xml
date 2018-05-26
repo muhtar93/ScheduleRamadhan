@@ -15,11 +15,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity"/>
-
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme"
+            android:label="List Schedule"/>
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
+        <activity
+            android:name=".ScheduleActivity"
+            android:theme="@style/AppTheme"
+            android:label="Add Schedule"
+            />
     </application>
 
 </manifest>
